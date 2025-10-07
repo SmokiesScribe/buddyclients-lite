@@ -105,7 +105,7 @@ class ServicePost {
             if ( $booking_page_link && $booking_page_link !== '#' ) {
                 $btn_args = [
                     'text'  => __( 'Book Now', 'buddyclients-lite' ),
-                    'link'  => buddyc_get_page_link( 'pages', 'booking_page' ),
+                    'link'  => $booking_page_link,
                     'type'  => 'secondary',
                     'size'  => 'wide'
                 ];
